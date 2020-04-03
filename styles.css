@@ -22,15 +22,18 @@ hr {
 }
 
 h1 {
+  text-align: center;
   font-size: 70px;
+  font-weight: 600;
   font-family: 'Clicker Script', cursive;
   color: #45b29a;
   height: 70px;
   margin: 0;
-  padding-top: 250px;
+  padding-top: 150px;
 }
 
 h2 {
+  margin: 50px 0 50px 0;
   text-align: center;
   color: #45b29a;
   font-size: 50px;
@@ -38,8 +41,21 @@ h2 {
 }
 
 h3 {
+  margin: 24 0 24 0;
   color: #3F3D56;
   font-size: 1.5em;
+}
+
+.game-a{
+  font-size: 30px;
+}
+
+.mountain{
+  margin-top: 70px;
+}
+
+.header{
+  background-color: #DFEAE7;
 }
 
 .gaming-page-p {
@@ -60,7 +76,7 @@ h3 {
   font-family: verdana, serif;
   color: #45b29a;
   padding: 0;
-  margin-top: 30px;
+  margin-top: 90px;
   margin-right: 20px;
   margin-bottom: 0;
 }
@@ -91,10 +107,12 @@ h3 {
 
 .footer{
   font-size: 25px;
+  color: #444444;
 }
 
 a:hover{
   color: #545454;
+  text-decoration: none;
 }
 
 ::selection {
